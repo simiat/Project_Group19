@@ -1,9 +1,5 @@
 # Chemical Formula
 
-[View on GitHub](https://github.com/Simiatt/project-site-)
-[Download .zip](https://github.com/Simiatt/project-site-/zipball/master)  
-[Download .tar.gz](https://github.com/Simiatt/project-site-/tarball/master)
-
 ## Methodology, Results & Analysis
 
 This [DBpedia page of minerals](https://dbpedia.org/page/Mineral) introduces us to a wide variety of minerals. We decided to explore three types of minerals: Zircon, Quartz, and Topaz. These minerals were selected because they belong to the category of Silicates.
