@@ -3,16 +3,7 @@
 
 @import "jekyll-theme-modernist";
 
-html
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{{ page.title }}</title>
-        <link rel="stylesheet" href="{{  }}/Project_Group19/edit/master/assets/css/style.scss">
-    </head>
-    <body>
-        {{ content }}
-    </body>
-    </html>
+css
+body {
+    background-color: #d0f0c0;
+}
