@@ -1,12 +1,6 @@
----
-title: "IT Skills Project | Information Technology Skills final project (group 19) - Exam"
-description: "Information Technology Skills final project (group 19) - Exam."
-layout: default
----
-
 # IT Skills Project
 
-## Information Technology Skills final project (group 19) - Exam
+## Information Technology Skills final project (group 19)
 
 [View on GitHub](https://github.com/simiat/Project_Group19-)  
 [Download .zip](https://github.com/simiat/Project_Group19-/zipball/master)  
@@ -14,10 +8,15 @@ layout: default
 
 ---
 
-### Information Technology Skills Project by:
+<img src="https://img.atlasobscura.com/OK0wNiViBtJsTzZqw0o-gdxZBDbArPmTc8FoOsaIUpM/rs:fill:12000:12000/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL2Fzc2V0/cy8xNDk4NDg4ZmJm/ZjgxNDM5ZjFfc3Rv/bmVzLTE2NDY0Nzlf/OTYwXzcyMC5qcGc.jpg" alt="minerals" width="500" height="300"/>
+
+
+### Group members: 
 
 - **Giulia Casarini**
 - **Simone Iattoni**
+
+### Objectives and methodologies
 
 This project aims at creating new RDF triples regarding the Natural Specimen Description Ontology to enrich the ArCo Knowledge Graph. As part of the methodology, we used:
 
@@ -28,7 +27,7 @@ This project aims at creating new RDF triples regarding the Natural Specimen Des
 - Large Language Models ([ChatGPT](https://openai.com/chatgpt/) and [Gemini](https://gemini.google.com/app?hl=it))
 - Prompting techniques (Zero-shot, Few-shot, Chain-of-Thought, Generated Knowledge Prompting, Self-consistency)
 
----
+Our project focuses on different types of minerals included in the ArCo knowledge graph, and in particular the category of silicates. Our goal is to explore the world of minerals to enrich the knowledge graph with subject-predicate-object triples. Based on our results, the project has the potential to succeed on a larger scale, as our proposals serve as the foundation for potential future development.
 
 ### Contents
 
@@ -38,11 +37,9 @@ This project aims at creating new RDF triples regarding the Natural Specimen Des
 
 * [Crystal Habit](https://github.com/simiat/Project_Group19/blob/master/page3.md)
 
----
 
-Our project focuses on different types of minerals included in the ArCo knowledge graph, and in particular the category of silicates. Our goal is to explore the world of minerals to enrich the knowledge graph with subject-predicate-object triples. Based on our results, the project has the potential to succeed on a larger scale, as our proposals serve as the foundation for potential future development.
 
----
+
 
 <span class="site-footer-owner"> [Project_Group19](https://github.com/simiat/Project_Group19) is maintained by [Simone Iattoni](https://github.com/simiat).
 </span>  
