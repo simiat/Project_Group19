@@ -1,7 +1,5 @@
 # IT Skills Project
 
-[![.github/workflows/ci.yaml](https://github.com/pages-themes/modernist/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/modernist/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-modernist.svg)](https://badge.fury.io/rb/jekyll-theme-modernist)
-
 ## Information Technology Skills final project (group 19)
 
 [View on GitHub](https://github.com/simiat/Project_Group19-)  
@@ -39,8 +37,7 @@ Minerals are natural, inorganic solids with a specific chemical composition and 
 * Topaz
 * Zircon
 
-​
-### Contents
+### Contents 
 
 * [Chemical Formula](https://github.com/simiat/Project_Group19/blob/master/page1.md)
 
