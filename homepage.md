@@ -8,9 +8,9 @@ layout: default
 
 ## Information Technology Skills final project (group 19) - Exam
 
-[View on GitHub](https://github.com/simiat/project-site-)  
-[Download .zip](https://github.com/simiat/project-site-/zipball/master)  
-[Download .tar.gz](https://github.com/simiat/project-site-/tarball/master)
+[View on GitHub](https://github.com/simiat/Project_Group19-)  
+[Download .zip](https://github.com/simiat/Project_Group19-/zipball/master)  
+[Download .tar.gz](https://github.com/simiat/Project_Group19-/tarball/master)
 
 ---
 
