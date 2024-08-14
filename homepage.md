@@ -1,5 +1,7 @@
 # IT Skills Project
 
+[![.github/workflows/ci.yaml](https://github.com/pages-themes/modernist/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/modernist/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-modernist.svg)](https://badge.fury.io/rb/jekyll-theme-modernist)
+
 ## Information Technology Skills final project (group 19)
 
 [View on GitHub](https://github.com/simiat/Project_Group19-)  
