@@ -1,10 +1,23 @@
 # Crystal Habit
 
-The last characteristic of minerals we aim to explore is crystal habit. The crystal habit of a mineral refers to the characteristic external shape or form that a mineral's crystals tend to grow in under natural conditions. This shape results from the mineral's internal atomic structure and the environmental conditions during its formation. To investigate this, we used Gemini to determine whether a property for crystal habit exists within the ArCo Knowledge Graph by analyzing the names of other object properties associated with mineral characteristics.
+The last feature of minerals we aim to explore is crystal habit. The crystal habit of a mineral refers to the characteristic external shape or form that a mineral's crystals tend to grow in under natural conditions. This shape results from the mineral's internal atomic structure and the environmental conditions during its formation. To investigate this, we used Gemini to determine whether a property for crystal habit exists within the ArCo Knowledge Graph by analyzing the names of other object properties associated with mineral characteristics.
+
+![35.Gemini_FewShot1](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/35.Gemini_FewShot1.png)
+
+![36.Gemini_FewShot2](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/36.Gemini_FewShot2.png)
+
+![37.Gemini_FewShot3](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/37.Gemini_FewShot3.png)
+
+![38.Gemini_FewShot4](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/38.Gemini_FewShot4.png)
+
+![39.Gemini_FewShot5](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/39.Gemini_FewShot5.png)
+
 
 Gemini indicates that crystal habit is associated with the `hasCrystalHabit` property. However, since we are uncertain about the domain and range of this property, as well as its actual existence, we consulted the Natural Specimen Description Ontology to verify this information.
 
-![Description of Image 6](path/to/image6.jpg)
+![40.ArCo_CrystalHabit](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/40.ArCo_CrystalHabit.png)
+
+We discovered that a class called ‘Crystal Habit’ does indeed exist and serves as the range for the `hasCrystalHabit` property, which is the focus of our inquiry. We then constructed a query to retrieve the labels of subjects and their values associated with the `hasCrystalHabit` property. Specifically, we aimed to find the crystal habit of an entity labeled ‘topaz’ in Italian, using the `LANG` operator and the regular expression `&&` to combine the two conditions.
 
 ```sparql
 PREFIX a-spe: <https://w3id.org/arco/ontology/natural-specimen-description/>
@@ -20,32 +33,34 @@ WHERE
 }
 LIMIT 500
 ```
-
-We discovered that a class called ‘Crystal Habit’ does indeed exist and serves as the range for the `hasCrystalHabit` property, which is the focus of our inquiry. We then constructed a query to retrieve the labels of subjects and their values associated with the `hasCrystalHabit` property. Specifically, we aimed to find the crystal habit of an entity labeled ‘topaz’ in Italian, using the `LANG` operator and the regular expression `&&` to combine conditions.
-
 From the resulting list, we identified two items: quartz and topaz, which have crystal habits labeled as **granulare** and **tabulare**, respectively.
 
+![41.CrystalHabit](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/41.CrystalHabit.png)
+
+![42.CrystalHabit_Granulare](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/42.CrystalHabit_Granulare.png)
+
+![43.CrystalHabit_Tabulare](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/43.CrystalHabit_Tabulare.png)
 
 **NEW TRIPLE 5**
 
-- [Subject: quarzo (esemplare)](https://w3id.org/arco/resource/NaturalHeritage/2000189686-1)
+- [https://w3id.org/arco/resource/NaturalHeritage/2000189686-1](https://w3id.org/arco/resource/NaturalHeritage/2000189686-1) → Subject: quarzo (esemplare)
 - a-spe:hasCrystalHabit → Predicate/ Property
-- [Object/ Property value: granulare](https://w3id.org/arco/resource/CrystalHabit/2000189686-1)
+- [https://w3id.org/arco/resource/CrystalHabit/2000189686-1](https://w3id.org/arco/resource/CrystalHabit/2000189686-1) → Object/ Property value: granulare
 
-![Description of Image 9](path/to/image9.jpg)
+![44.CrystalHabit_Granulare2](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/44.CrystalHabit_Granulare2.png)
 
 **NEW TRIPLE 6**
 
-- [Subject: topazio (esemplare)](https://w3id.org/arco/resource/NaturalHeritage/1600302243)
+- [https://w3id.org/arco/resource/NaturalHeritage/1600302243](https://w3id.org/arco/resource/NaturalHeritage/1600302243) → Subject: topazio (esemplare)
 - a-spe:hasCrystalHabit → Predicate/ Property
-- [Object/ Property value: tabulare](https://w3id.org/arco/resource/CrystalHabit/1600302243)
+- [https://w3id.org/arco/resource/CrystalHabit/1600302243](https://w3id.org/arco/resource/CrystalHabit/1600302243)  → Object/ Property value: tabulare
 
-![Description of Image 10](path/to/image10.jpg)
+![45.CrystalHabit_Tabulare2](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/45.CrystalHabit_Tabulare2.png)
 
 [Back](./)
 
 <span class="site-footer-owner">
-[project-site-](https://github.com/simiat/project-site-) is maintained by [simiat](https://github.com/simiat).
+[Project_Group19-](https://github.com/simiat/project-site-) is maintained by [simiat](https://github.com/simiat).
 </span>  
 <span class="site-footer-credits">
 This page was generated by [GitHub Pages](https://pages.github.com).
