@@ -22,10 +22,10 @@ layout: default
 This project aims at creating new RDF triples regarding the Natural Specimen Description Ontology to enrich the ArCo Knowledge Graph. As part of the methodology, we used:
 
 - SPARQL query language
-- ArCo Knowledge Graph and its Ontologies
-- DBpedia Knowledge Graph
-- GITHUB to build the website
-- Large Language Models (ChatGPT and Gemini)
+- [ArCo Knowledge Graph](http://wit.istc.cnr.it/arco/index.php?lang=en) and its Ontologies
+- [DBpedia Knowledge Graph](https://www.dbpedia.org/)
+- [GITHUB](https://github.com/) to build the website
+- Large Language Models ([ChatGPT](https://openai.com/chatgpt/) and [Gemini](https://gemini.google.com/app?hl=it))
 - Prompting techniques (Zero-shot, Few-shot, Chain-of-Thought, Generated Knowledge Prompting, Self-consistency)
 
 ---
