@@ -29,6 +29,15 @@ This project aims at creating new RDF triples regarding the Natural Specimen Des
 
 Our project focuses on different types of minerals included in the ArCo knowledge graph, and in particular the category of silicates. Our goal is to explore the world of minerals to enrich the knowledge graph with subject-predicate-object triples. Based on our results, the project has the potential to succeed on a larger scale, as our proposals serve as the foundation for potential future development.
 
+### What are minerals
+
+Minerals are natural, inorganic solids with a specific chemical composition and organised atomic structure, forming the basis of rocks with distinct physical properties.​ Silicate minerals, predominant in the Earth’s crust, feature silicon and oxygen and exhibit diverse structural forms like frameworks, chains, sheets, or isolated tetrahedra.​ In our website we will focus on three minerals:
+
+* Quartz
+* Topaz
+* Zircon
+
+​
 ### Contents
 
 * [Chemical Formula](https://github.com/simiat/Project_Group19/blob/master/page1.md)
