@@ -1,123 +1,57 @@
+
+# IT Skills Project
+
+## Information Technology Skills final project (group 19)
+
+[View on GitHub](https://github.com/simiat/Project_Group19-)  
+[Download .zip](https://github.com/simiat/Project_Group19-/zipball/master)  
+[Download .tar.gz](https://github.com/simiat/Project_Group19-/tarball/master)
+
 ---
-layout: default
----
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+<img src="https://img.atlasobscura.com/OK0wNiViBtJsTzZqw0o-gdxZBDbArPmTc8FoOsaIUpM/rs:fill:12000:12000/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL2Fzc2V0/cy8xNDk4NDg4ZmJm/ZjgxNDM5ZjFfc3Rv/bmVzLTE2NDY0Nzlf/OTYwXzcyMC5qcGc.jpg" alt="minerals" width="500" height="300"/>
 
 
-### Definition lists can be used with HTML syntax.
+### Group members: 
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+- **Giulia Casarini**
+- **Simone Iattoni**
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+### Objectives and methodologies
 
-```
-The final element.
-```
+This project aims at creating new RDF triples regarding the Natural Specimen Description Ontology to enrich the ArCo Knowledge Graph. As part of the methodology, we used:
+
+- SPARQL query language
+- [ArCo Knowledge Graph](http://wit.istc.cnr.it/arco/index.php?lang=en) and its Ontologies
+- [DBpedia Knowledge Graph](https://www.dbpedia.org/)
+- [GITHUB](https://github.com/) to build the website
+- Large Language Models ([ChatGPT](https://openai.com/chatgpt/) and [Gemini](https://gemini.google.com/app?hl=it))
+- Prompting techniques (Zero-shot, Few-shot, Chain-of-Thought, Generated Knowledge Prompting, Self-consistency)
+
+Our project focuses on different types of minerals included in the ArCo knowledge graph, and in particular the category of silicates. Our goal is to explore the world of minerals to enrich the knowledge graph with subject-predicate-object triples. Based on our results, the project has the potential to succeed on a larger scale, as our proposals serve as the foundation for potential future development.
+
+### What are minerals
+
+Minerals are natural, inorganic solids with a specific chemical composition and organised atomic structure, forming the basis of rocks with distinct physical properties.​ Silicate minerals, predominant in the Earth’s crust, feature silicon and oxygen and exhibit diverse structural forms like frameworks, chains, sheets, or isolated tetrahedra.​ In our website we will focus on three minerals:
+
+* Quartz
+* Topaz
+* Zircon
+
+### Contents 
+
+* [Chemical Formula](https://github.com/simiat/Project_Group19/blob/master/page1.md)
+
+* [Colour](https://github.com/simiat/Project_Group19/blob/master/page2.md)
+
+* [Crystal Habit](https://github.com/simiat/Project_Group19/blob/master/page3.md)
+
+
+
+
+
+<span class="site-footer-owner"> [Project_Group19](https://github.com/simiat/Project_Group19) is maintained by [Simone Iattoni](https://github.com/simiat).
+</span>  
+<span class="site-footer-credits">
+This page was generated by [GitHub Pages](https://pages.github.com).
+</span>
