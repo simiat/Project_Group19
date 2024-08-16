@@ -2,7 +2,7 @@
 
 Minerals exhibit a diverse array of colors, which contribute to their uniqueness among geological specimens. These colors can vary from white, violet, and green to bright red, making each mineral distinct. For this reason, we decided to interrogate ChatGPT through the technique of **Generated Knowledge Prompting** in the hope of confirming and expanding our knowledge about this particular characteristic of minerals.
 
-![20.ChatGPT_GeneretatedKnowledge1](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/20.ChatGPT_GeneretatedKnowledge1.png)
+![20.ChatGPT_GeneratedKnowledge1](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/20.ChatGPT_GeneratedKnowledge1.png)
 
 ![21.ChatGPT_GeneratedKnowledge2](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/21.ChatGPT_GeneratedKnowledge2.png)
 
