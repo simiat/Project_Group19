@@ -2,9 +2,7 @@
 
 ## Information Technology Skills final project (group 19)
 
-[View on GitHub](https://github.com/simiat/Project_Group19-)  
-[Download .zip](https://github.com/simiat/Project_Group19-/zipball/master)  
-[Download .tar.gz](https://github.com/simiat/Project_Group19-/tarball/master)
+[View on GitHub](https://github.com/simiat/Project_Group19-)  [Download .zip](https://github.com/simiat/Project_Group19-/zipball/master)  [Download .tar.gz](https://github.com/simiat/Project_Group19-/tarball/master)
 
 ---
 
