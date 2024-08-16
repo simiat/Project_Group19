@@ -31,7 +31,7 @@ Our project focuses on different types of minerals included in the ArCo knowledg
 
 ### What are minerals
 
-Minerals are natural, inorganic solids with a specific chemical composition and organised atomic structure, forming the basis of rocks with distinct physical properties.​ Silicate minerals, predominant in the Earth’s crust, feature silicon and oxygen and exhibit diverse structural forms like frameworks, chains, sheets, or isolated tetrahedra.​ In our website we will focus on three minerals:
+Minerals are natural, inorganic solids with a specific chemical composition and organised atomic structure, forming the basis of rocks with distinct physical properties.​ Silicate minerals, predominant in the Earth’s crust, feature silicon and oxygen and exhibit diverse structural forms like frameworks, chains, sheets, or isolated tetrahedra.​ In our website we will focus on three silicate minerals:
 
 * Quartz
 * Topaz
