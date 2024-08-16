@@ -1,11 +1,3 @@
-# IT Skills Project
-
-## Information Technology Skills final project (group 19)
-
-[View on GitHub](https://github.com/simiat/Project_Group19-)  [Download .zip](https://github.com/simiat/Project_Group19-/zipball/master)  [Download .tar.gz](https://github.com/simiat/Project_Group19-/tarball/master)
-
----
-
 <img src="https://img.atlasobscura.com/OK0wNiViBtJsTzZqw0o-gdxZBDbArPmTc8FoOsaIUpM/rs:fill:12000:12000/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL2Fzc2V0/cy8xNDk4NDg4ZmJm/ZjgxNDM5ZjFfc3Rv/bmVzLTE2NDY0Nzlf/OTYwXzcyMC5qcGc.jpg" alt="minerals" width="500" height="300"/>
 
 
