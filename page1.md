@@ -23,10 +23,10 @@ ORDER BY ?mineralTypeLabel
 The above query is the correct version:
 
 - We changed prefixes to ones more appropriate for DBpedia.
-- We changed the namespace `dbpedia:` to `dbo:` to characterize the Mineral class.
-- We eliminated the variable `?mineralCategory` because we thought that by doing so the query would give us more relevant results.
-- We eliminated the BIND statement, which introduced a variable not specified in the SELECT DISTINCT part of the query, namely `?labelLength`.
-- We substituted it with the function `FILTER LANG`, which returns values for the variable `?mineralTypeLabel` in Italian. The query suggested by Gemini returned mineral types, but the related labels were in an Asian language, possibly Chinese or Japanese. The results are available at this [link](https://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=PREFIX+dbo%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0D%0APREFIX+dbp%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fproperty%2F%3E%0D%0APREFIX+dbr%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2F%3E%0D%0A%0D%0ASELECT+DISTINCT++%3FmineralType+%3FmineralTypeLabel%0D%0AWHERE+%7B%0D%0A++%3FmineralType+a+dbo%3AMineral+.++%0D%0A++%3FmineralType+rdfs%3Alabel+%3FmineralTypeLabel+.++%0D%0A++FILTER+%28LANG%28%3FmineralTypeLabel%29+%3D+%22it%22+%29%0D%0A%7D%0D%0AORDER+BY+%3FmineralTypeLabel%0D%0A&format=text%2Fhtml&timeout=30000&signal_void=on&signal_unconnected=on)
+- We changed the namespace **dbpedia:** to **dbo:** to characterize the Mineral class.
+- We eliminated the variable **?mineralCategory** because we thought that by doing so the query would give us more relevant results.
+- We eliminated the BIND statement, which introduced a variable not specified in the SELECT DISTINCT part of the query, namely **?labelLength**.
+- We substituted it with the function FILTER LANG, which returns values for the variable **?mineralTypeLabel** in Italian. The query suggested by Gemini returned mineral types, but the related labels were in an Asian language, possibly Chinese or Japanese. The results are available at this [link](https://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=PREFIX+dbo%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0D%0APREFIX+dbp%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fproperty%2F%3E%0D%0APREFIX+dbr%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2F%3E%0D%0A%0D%0ASELECT+DISTINCT++%3FmineralType+%3FmineralTypeLabel%0D%0AWHERE+%7B%0D%0A++%3FmineralType+a+dbo%3AMineral+.++%0D%0A++%3FmineralType+rdfs%3Alabel+%3FmineralTypeLabel+.++%0D%0A++FILTER+%28LANG%28%3FmineralTypeLabel%29+%3D+%22it%22+%29%0D%0A%7D%0D%0AORDER+BY+%3FmineralTypeLabel%0D%0A&format=text%2Fhtml&timeout=30000&signal_void=on&signal_unconnected=on)
 
 From the list of results, we chose the IRIs for three types of minerals:
 
@@ -162,6 +162,8 @@ From the table of results we chose the eighth entity, “ZIRCONE (esemplare)”,
 - [https://w3id.org/arco/resource/NaturalHeritage/0900801498](https://w3id.org/arco/resource/NaturalHeritage/0900801498) → Subject: ZIRCONE (esemplare)
 - a-spe:hasChemicalFormula → Predicate
 - [https://w3id.org/arco/resource/ChemicalFormula/zrsio4](https://w3id.org/arco/resource/ChemicalFormula/zrsio4) → Object: “Zr(SiO4)”
+
+---
 
 
 Remarkable is the fact that the majority of the hits belong to the class Natural Heritage, which is part of the ARCO ontology, the superclass of Mineral Heritage.
