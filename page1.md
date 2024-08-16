@@ -63,7 +63,7 @@ ORDER BY ASC(?valueLabel)
 LIMIT 100
 ```
 
-it does not give any results, as it is also evident from thìis empty table
+it does not give any results, as it is also evident from this empty table
 
 ![8.EmptyTable_Value%26ValueLabel](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/8.EmptyTable_Value%26ValueLabel.png)
 
