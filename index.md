@@ -23,23 +23,24 @@ This project aims at creating new RDF triples regarding the Natural Specimen Des
 - Large Language Models ([ChatGPT](https://openai.com/chatgpt/) and [Gemini](https://gemini.google.com/app?hl=it))
 - Prompting techniques (Zero-shot, Few-shot, Chain-of-Thought, Generated Knowledge Prompting, Self-consistency)
 
-Our project focuses on different types of **minerals** included in the ArCo knowledge graph, and in particular the category of **silicates**. Our goal is to explore the world of minerals to enrich the knowledge graph with subject-predicate-object triples. Based on our results, the project has the potential to succeed on a larger scale, as our proposals serve as the foundation for potential future development.
+Our project focuses on different types of **minerals** included in the ArCo knowledge graph, and in particular the category of **silicates**. Our goal is to explore the world of minerals to enrich the knowledge graph with subject-predicate-object triples.
 
 ### What are minerals
 
 Minerals are natural, inorganic solids with a specific chemical composition and organised atomic structure, forming the basis of rocks with distinct physical properties.​ Silicate minerals, predominant in the Earth’s crust, feature silicon and oxygen and exhibit diverse structural forms like frameworks, chains, sheets, or isolated tetrahedra.​ In our website we will focus on three silicate minerals:
 
-* Quartz
-* Topaz
-* Zircon
+* Quartz: Abundant silicate mineral found in crystalline and massive forms, typically clear and colourless but variably coloured due to impurities. ​
+* Topaz: Silicate mineral forming prismatic crystals in colours like colourless, yellow, blue, pink, and green, influenced by trace impurities and treatments.
+* Zircon: Nesosilicate mineral known for small, well-formed crystals, high refractive index, and strong dispersion, resulting in exceptional brilliance. Comes in various colours; noted for durability and resistance to chemical weathering.​
 
+​
 ### Contents 
 
 * [Chemical Formula](./page1.html)
 
 * [Colour](./page2.html)
 
-* [Crystal Habit](./page3.md)
+* [Crystal Habit](./page3.html)
 
 
 
