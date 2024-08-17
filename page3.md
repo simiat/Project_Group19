@@ -18,11 +18,11 @@ The last feature of minerals we aim to explore is crystal habit. The crystal hab
 ![39.Gemini_FewShot5](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/39.Gemini_FewShot5.png)
 
 
-Gemini indicates that crystal habit is associated with the `hasCrystalHabit` property. However, since we are uncertain about the domain and range of this property, as well as its actual existence, we consulted the Natural Specimen Description Ontology to verify this information.
+Gemini indicates that crystal habit is associated with the **hasCrystalHabit** property. However, since we are uncertain about the domain and range of this property, as well as its actual existence, we consulted the Natural Specimen Description Ontology to verify this information.
 
 ![40.ArCo_CrystalHabit](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/40.ArCo_CrystalHabit.png)
 
-We discovered that a class called ‘Crystal Habit’ does indeed exist and serves as the range for the `hasCrystalHabit` property, which is the focus of our inquiry. We then constructed a query to retrieve the labels of subjects and their values associated with the `hasCrystalHabit` property. Specifically, we aimed to find the crystal habit of an entity labeled ‘topaz’ in Italian, using the `LANG` operator and the regular expression `&&` to combine the two conditions.
+We discovered that a class called **Crystal Habit** does indeed exist and serves as the range for the **hasCrystalHabit** property, which is the focus of our inquiry. We then constructed a query to retrieve the labels of subjects and their values associated with the **hasCrystalHabit** property. Specifically, we aimed to find the crystal habit of an entity labeled ‘topaz’ in Italian, using the `LANG` operator and the regular expression `&&` to combine the two conditions.
 
 ```sparql
 PREFIX a-spe: <https://w3id.org/arco/ontology/natural-specimen-description/>
