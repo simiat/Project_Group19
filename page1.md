@@ -251,7 +251,7 @@ Therefore, given the significant difference in the number of results from the tw
 
 These findings emphasize the importance of correctly identifying the relevant classes when working with ontologies to ensure accurate and meaningful results.
 
-[Back](./)
+[BACK](./)
 
 <span class="site-footer-owner"> [Project_Group19](https://github.com/simiat/Project_Group19) is maintained by [Simone Iattoni](https://github.com/simiat).
 </span>  
