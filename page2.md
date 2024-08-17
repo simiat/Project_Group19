@@ -27,7 +27,7 @@ After that we prompted ChatGPT again through the technique of **Self-Consistency
 
 Given our uncertainty about the accuracy of the LLM’s response, we decided to enhance our search by prompting again the model with the same technique. Upon further investigation, we found that ChatGPT provided an incorrect answer. After thoroughly reviewing ArCo ontologies, it became clear that there is no property named **arco:hasColour** in the Knowledge Graph.
 
-![26.ChatGPT_SelfConsistecy2](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/26.ChatGPT_SelfConsistecy2.png)
+![26.ChatGPT_SelfConsistency2](/immagini_markdown/26.ChatGPT_SelfConsistency2.png)
 
 ![27.ChatGPT_SelfConsistency3](/immagini_markdown/27.ChatGPT_SelfConsistency3.png)
 
