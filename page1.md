@@ -70,7 +70,7 @@ LIMIT 100
 
 it does not give any results, as it is also evident from this empty table
 
-![8.EmptyTable_Value%26ValueLabel](/immagini_markdown/8.EmptyTable_Value%26ValueLabel.png)
+![8.EmptyTable_Value&ValueLabel](/immagini_markdown/8.EmptyTable_Value&ValueLabel.png)
 
 Secondly, we decided to correct the resulting query in order to return more interesting results than those provided. This is the query that provides ChatGPT:
 
