@@ -1,5 +1,6 @@
 ---
 layout: default
+theme:  jekyll-theme-modernist
 title: home 
 ---
 
