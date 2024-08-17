@@ -1,6 +1,5 @@
 ---
 layout: default
-title: "Home" 
 ---
 
 # Exploring the World of Minerals 
