@@ -29,9 +29,9 @@ Our project focuses on different types of **minerals** included in the ArCo know
 
 Minerals are natural, inorganic solids with a specific chemical composition and organised atomic structure, forming the basis of rocks with distinct physical properties.​ Silicate minerals, predominant in the Earth’s crust, feature silicon and oxygen and exhibit diverse structural forms like frameworks, chains, sheets, or isolated tetrahedra.​ In our website we will focus on three silicate minerals:
 
-* Quartz: Abundant silicate mineral found in crystalline and massive forms, typically clear and colourless but variably coloured due to impurities. ​
-* Topaz: Silicate mineral forming prismatic crystals in colours like colourless, yellow, blue, pink, and green, influenced by trace impurities and treatments.
-* Zircon: Nesosilicate mineral known for small, well-formed crystals, high refractive index, and strong dispersion, resulting in exceptional brilliance. Comes in various colours; noted for durability and resistance to chemical weathering.​
+* **Quartz**: Abundant silicate mineral found in crystalline and massive forms, typically clear and colourless but variably coloured due to impurities. ​
+* **Topaz**: Silicate mineral forming prismatic crystals in colours like colourless, yellow, blue, pink, and green, influenced by trace impurities and treatments.
+* **Zircon**: Nesosilicate mineral known for small, well-formed crystals, high refractive index, and strong dispersion, resulting in exceptional brilliance. Comes in various colours; noted for durability and resistance to chemical weathering.​
 
 ​
 ### Contents 
