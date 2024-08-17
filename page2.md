@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Colour"
+---
+
 # Colour
 
 Minerals exhibit a diverse array of colors, which contribute to their uniqueness among geological specimens. These colors can vary from white, violet, and green to bright red, making each mineral distinct. For this reason, we decided to interrogate ChatGPT through the technique of **Generated Knowledge Prompting** in the hope of confirming and expanding our knowledge about this particular characteristic of minerals.
