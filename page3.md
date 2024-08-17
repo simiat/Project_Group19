@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Crystal Habit"
+---
+
 # Crystal Habit
 
 The last feature of minerals we aim to explore is crystal habit. The crystal habit of a mineral refers to the characteristic external shape or form that a mineral's crystals tend to grow in under natural conditions. This shape results from the mineral's internal atomic structure and the environmental conditions during its formation. To investigate this, we used Gemini to determine whether a property for crystal habit exists within the ArCo Knowledge Graph by analyzing the names of other object properties associated with mineral characteristics.
