@@ -45,11 +45,11 @@ Each mineral is described by a chemical formula, which represents the chemical e
 
 We first queried ChatGPT, asking how to find the IRI of the mineral "topaz" in the ArCo Knowledge Graph using the Zero-shot-CoT technique:
 
-![5.ChatGPT_ZeroShotCoT1](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/5.ChatGPT_ZeroShotCoT1.png)
+![5.ChatGPT_ZeroShotCoT1](/immagini_markdown/5.ChatGPT_ZeroShotCoT1.png)
 
-![6.ChatGPT_ZeroShotCoT2](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/6.ChatGPT_ZeroShotCoT2.png)
+![6.ChatGPT_ZeroShotCoT2](/immagini_markdown/6.ChatGPT_ZeroShotCoT2.png)
 
-![7.ChatGPT_ZeroShotCoT3](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/7.ChatGPT_ZeroShotCoT3.png)
+![7.ChatGPT_ZeroShotCoT3](/immagini_markdown/7.ChatGPT_ZeroShotCoT3.png)
 
 The LLM returns a query plus the IRI of topaz.
 Firstly, we realized that the IRI of topaz provided by ChatGPT (<https://w3id.org/arco/resource/topaz>) is not correct, in that if we run the following query: 
@@ -70,7 +70,7 @@ LIMIT 100
 
 it does not give any results, as it is also evident from this empty table
 
-![8.EmptyTable_Value%26ValueLabel](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/8.EmptyTable_Value%26ValueLabel.png)
+![8.EmptyTable_Value%26ValueLabel](/immagini_markdown/8.EmptyTable_Value%26ValueLabel.png)
 
 Secondly, we decided to correct the resulting query in order to return more interesting results than those provided. This is the query that provides ChatGPT:
 
@@ -101,21 +101,21 @@ LIMIT 50
 
 Substantially, we added the REGEX operator, leaving out LCASE and substituting it with "i" within brackets, which means that the label of the corresponding IRI for topaz should be case insensitive. Results are shown in this table:
 
-![9.TopazIRI](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/9.TopazIRI.png)
+![9.TopazIRI](/immagini_markdown/9.TopazIRI.png)
 
 From the list, we chose the eighth result whose RDF description is available at this [link](https://dati.beniculturali.it/lodview-arco/resource/NaturalHeritage/0900801226.html).
 
 Scrolling down the page, we stop at the object property **hasChemicalFormula**, which is the property we are interested in:
 
-![10.Topazio_esemplare1](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/10.Topazio_esemplare1.png)
-![11.Topazio_esemplare2](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/11.Topazio_esemplare2.png)
+![10.Topazio_esemplare1](/immagini_markdown/10.Topazio_esemplare1.png)
+![11.Topazio_esemplare2](/immagini_markdown/11.Topazio_esemplare2.png)
 
 The chemical formula of topaz is: **Al2(SiO4)(F OH)2**, which is identified as _Simplified Chemical Formula_. This is evident from the rdf:type row that associates the formula with two classes:
 
 - [Simplified Chemical Formula](https://w3id.org/arco/ontology/natural-specimen-description/SemplifiedChemicalFormula) 
 - [Movable Property: Simplified Chemical Formula](https://w3id.org/arco/ontology/movable-property/SemplifiedChemicalFormula) 
 
-![12.ChemicalFormula_Topaz](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/12.ChemicalFormula_Topaz.png)
+![12.ChemicalFormula_Topaz](/immagini_markdown/12.ChemicalFormula_Topaz.png)
 Having found the simplified chemical formula of topaz, we can write a new triple connecting the mineral and its chemical formula through the property _hasChemicalFormula_:
 
 **NEW TRIPLE 1**
@@ -142,7 +142,7 @@ LIMIT 100
 
 This query returns exactly the subject of the above written triple
 
-![13.ChemicalFormula_Topaz2](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/13.ChemicalFormula_Topaz2.png)
+![13.ChemicalFormula_Topaz2](/immagini_markdown/13.ChemicalFormula_Topaz2.png)
 
 We repeated the same procedure for the mineral zircon:
 
@@ -156,11 +156,11 @@ WHERE {
 }
 LIMIT 100
 ```
-![14.ZirconIRI](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/14.ZirconIRI.png)
+![14.ZirconIRI](/immagini_markdown/14.ZirconIRI.png)
 
 From the table of results we chose the eighth entity, “ZIRCONE (esemplare)”, whose related IRI connected to the label is available at this [link](https://w3id.org/arco/resource/NaturalHeritage/0900801498). The chemical formula of zircon is: **Zr(SiO4)**, categorized as an Empirical Chemical Formula, not as a Simplified Formula.
 
-![15.ChemicalFormula_Zircon](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/15.ChemicalFormula_Zircon.png)
+![15.ChemicalFormula_Zircon](/immagini_markdown/15.ChemicalFormula_Zircon.png)
 
 **NEW TRIPLE 2**
 
@@ -173,7 +173,7 @@ From the table of results we chose the eighth entity, “ZIRCONE (esemplare)”,
 
 Remarkable is the fact that the majority of the hits belong to the class Natural Heritage, which is part of the ARCO ontology, the superclass of Mineral Heritage.
 
-![16.ArCo_NaturalHeritage](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/16.ArCo_NaturalHeritage.png)
+![16.ArCo_NaturalHeritage](/immagini_markdown/16.ArCo_NaturalHeritage.png)
 
 However, if we run this query:
 
@@ -190,7 +190,7 @@ LIMIT 100
 
 we find two results that are notably different from what we expected for a mineral:
 
-![17.ZirconIRI2](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/17.ZirconIRI2.png)
+![17.ZirconIRI2](/immagini_markdown/17.ZirconIRI2.png)
 
 We can see that zircon is described by the classes “TechnicalCharacteristic” and “CulturalPropertyDefinition” (they belong to the Denotative Description Ontology on ArCo), although we know that, by consulting the ArCo Ontology, these minerals are included in the class Mineral, for example quartz ([https://w3id.org/arco/resource/Mineral/quarzo](https://w3id.org/arco/resource/Mineral/quarzo)), or Natural Heritage, like topaz or zircon. We are interested in how many entities labelled “zircone” we could find under the two classes cited above.
 
@@ -207,9 +207,9 @@ ASK {
 
 Now, we are interested in finding out how many minerals are included in the class TechnicalCharacteristic. For this reason, we asked Gemini with the **Zero-Shot Prompting**:
 
-![18.Gemini_ZeroShot](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/18.Gemini_ZeroShot.png)
+![18.Gemini_ZeroShot](/immagini_markdown/18.Gemini_ZeroShot.png)
 
-![19.Gemini_ZeroShot2](https://github.com/simiat/Project_Group19/blob/master/immagini_markdown/19.Gemini_ZeroShot2.png)
+![19.Gemini_ZeroShot2](/immagini_markdown/19.Gemini_ZeroShot2.png)
 
 Some corrections were needed:
 - We added the PREFIX part which was missing in the code returned by the large language model.
