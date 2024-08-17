@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Chemical Formula"
+---
+
 # Chemical Formula
 
 ## DBpedia and Minerals
