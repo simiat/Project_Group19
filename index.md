@@ -23,7 +23,7 @@ This project aims at creating new RDF triples regarding the Natural Specimen Des
 - Large Language Models ([ChatGPT](https://openai.com/chatgpt/) and [Gemini](https://gemini.google.com/app?hl=it))
 - Prompting techniques (Zero-shot, Few-shot, Chain-of-Thought, Generated Knowledge Prompting, Self-consistency)
 
-Our project focuses on different types of **minerals** included in the ArCo knowledge graph, and in particular the category of **silicates**. Our goal is to explore the world of minerals to enrich the knowledge graph with subject-predicate-object triples.
+Our project focuses on different types of **minerals** included in the ArCo knowledge graph, and in particular the category of **silicates**. Our goal is to explore the world of minerals  to enrich the knowledge graph with subject-predicate-object triples.
 
 ### What are minerals
 
@@ -35,6 +35,8 @@ Minerals are natural, inorganic solids with a specific chemical composition and 
 
 ​
 ### Contents 
+
+The project is divided in three sections corresponding to three features that mineral show:  
 
 * [Chemical Formula](./page1.html)
 
