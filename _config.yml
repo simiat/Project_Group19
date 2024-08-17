@@ -1,21 +1,5 @@
-index.md 
-- title: IT Skills Project
-- description: Information Technology Skills final project (group 19) 
-- show_downloads: true 
-- google_analytics:
-- theme: jekyll-theme-modernist
-page1.md
-- title: Chemical Formula
-- show dowloads: true
-- google anaytics:
-- theme: jekyll-theme-modernist
-page2.md 
-- title: Colour
-- show dowloads: true
-- google anaytics:
-- theme: jekyll-theme-modernist
-page3.md
-- title: Crystal Habit
-- show dowloads: true
-- google anaytics:
-- theme: jekyll-theme-modernist
+title: IT Skills Project
+description: Information Technology Skills final project (group 19) 
+show_downloads: true 
+google_analytics:
+theme: jekyll-theme-modernist
