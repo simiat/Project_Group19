@@ -1,7 +1,6 @@
 ---
 layout: default
-theme:  jekyll-theme-modernist
-title: home 
+title: "Home" 
 ---
 
 # Exploring the World of Minerals 
