@@ -154,7 +154,7 @@ In order to create the next triple we chose the first result of the table connec
 - a-dd:hasColour → Predicate / Property
 - [https://w3id.org/arco/resource/TechnicalCharacteristic/giallo-vinato](https://w3id.org/arco/resource/TechnicalCharacteristic/giallo-vinato) → Property value: giallo vinato
 
-[Back](./)
+[BACK](./)
 
 
 <span class="site-footer-owner"> [Project_Group19](https://github.com/simiat/Project_Group19) is maintained by [Simone Iattoni](https://github.com/simiat).
