@@ -14,7 +14,7 @@ layout: default
 
 ### Objectives and methodologies
 
-This project aims at creating new RDF triples regarding the Natural Specimen Description Ontology to enrich the ArCo Knowledge Graph. As part of the methodology, we used:
+Our project focuses on different types of **minerals** included in the ArCo knowledge graph, and in particular the category of **silicates**. Our goal is to explore the world of minerals to enrich the knowledge graph with subject-predicate-object triples. As part of the methodology, we used:
 
 - SPARQL query language
 - [ArCo Knowledge Graph](http://wit.istc.cnr.it/arco/index.php?lang=en) and its Ontologies
@@ -23,11 +23,11 @@ This project aims at creating new RDF triples regarding the Natural Specimen Des
 - Large Language Models ([ChatGPT](https://openai.com/chatgpt/) and [Gemini](https://gemini.google.com/app?hl=it))
 - Prompting techniques (Zero-shot, Few-shot, Chain-of-Thought, Generated Knowledge Prompting, Self-consistency)
 
-Our project focuses on different types of **minerals** included in the ArCo knowledge graph, and in particular the category of **silicates**. Our goal is to explore the world of minerals  to enrich the knowledge graph with subject-predicate-object triples.
+
 
 ### What are minerals
 
-Minerals are natural, inorganic solids with a specific chemical composition and organised atomic structure, forming the basis of rocks with distinct physical properties.​ Silicate minerals, predominant in the Earth’s crust, feature silicon and oxygen and exhibit diverse structural forms like frameworks, chains, sheets, or isolated tetrahedra.​ In our website we will focus on three silicate minerals:
+Minerals are natural, inorganic solids with a specific chemical composition and an organised atomic structure, forming the basis of rocks with distinct physical properties.​ Silicate minerals, predominant in the Earth’s crust, feature silicon and oxygen and exhibit diverse structural forms like frameworks, chains, sheets, or isolated tetrahedra.​ In our website we will focus on three silicate minerals:
 
 * **Quartz**: Abundant silicate mineral found in crystalline and massive forms, typically clear and colourless but variably coloured due to impurities. ​
 * **Topaz**: Silicate mineral forming prismatic crystals in colours like colourless, yellow, blue, pink, and green, influenced by trace impurities and treatments.
@@ -36,7 +36,7 @@ Minerals are natural, inorganic solids with a specific chemical composition and 
 ​
 ### Contents 
 
-The project is divided in three sections corresponding to three features that mineral show:  
+The project is divided in three sections corresponding to three features that minerals show:  
 
 * [Chemical Formula](./page1.html)
 
