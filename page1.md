@@ -62,13 +62,13 @@ WHERE
 {
     <https://w3id.org/arco/resource/topaz> a-spe:hasChemicalFormula ?value .
     ?value rdfs:label ?valueLabel 
-    FILTER(STR(?valueLabel) = "Al2(SiO4)(F OH)2" )
+    FILTER(STR(?valueLabel) = "chemical formula" )
 }
 ORDER BY ASC(?valueLabel)
 LIMIT 100
 ```
 
-it does not give any results, as it is also evident from this empty table
+it does not give any results, as it is also evident from this empty table.
 
 ![8.EmptyTable_Value&ValueLabel](/immagini_markdown/8.EmptyTable_Value&ValueLabel.png)
 
