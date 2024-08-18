@@ -22,7 +22,7 @@ Gemini indicates that crystal habit is associated with the **hasCrystalHabit** p
 
 ![40.ArCo_CrystalHabit](/immagini_markdown/40.ArCo_CrystalHabit.png)
 
-We discovered that a class called **Crystal Habit** does indeed exist and serves as the range for the **hasCrystalHabit** property, which is the focus of our inquiry. We then constructed a query to retrieve the labels of subjects and their values associated with the **hasCrystalHabit** property. Specifically, we aimed to find the crystal habit of an entity labeled ‘topaz’ in Italian, using the `LANG` operator and the regular expression `&&` to combine the two conditions.
+We discovered that a class called **Crystal Habit** does indeed exist and serves as the range for the **hasCrystalHabit** property, which is the focus of our inquiry. We then constructed a query to retrieve the labels of subjects and their values associated with the **hasCrystalHabit** property. Specifically, we aimed to find the crystal habit of an entity labeled ‘topaz’ in Italian, using the LANG operator and the regular expression `&&` to combine the two conditions.
 
 ```sparql
 PREFIX a-spe: <https://w3id.org/arco/ontology/natural-specimen-description/>
