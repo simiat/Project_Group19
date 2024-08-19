@@ -190,7 +190,7 @@ we find two results that are notably different from what we expected for a miner
 ![17.ZirconIRI2](/immagini_markdown/17.ZirconIRI2.png)
 
 We can see that zircon is described by the classes **TechnicalCharacteristic** and **CulturalPropertyDefinition** (they both belong to the Denotative Description Ontology in ArCo), although we know that, by consulting the ArCo Ontology, these minerals are included in the class 'Mineral', for example quartz ([https://w3id.org/arco/resource/Mineral/quarzo](https://w3id.org/arco/resource/Mineral/quarzo)), or 'Natural Heritage', like topaz or zircon. We are interested in how many entities labelled “zircone” we could find under the two classes cited above.
-Firstly, we tried the following procedure for zircon: we used the operator ASK to ask ArCo knowledge graph if there are entities with the label “zircone” respectively belonging to the class TechnicalCharacteristic. The query returns an affirmative response (“true”):
+Firstly, we tried the following procedure for zircon: we used the operator **ASK** to ask ArCo knowledge graph if there are entities with the label “zircone” belonging to the class TechnicalCharacteristic. The query returns an affirmative response (“true”):
 
 ```sparql
 PREFIX a-dd: <https://w3id.org/arco/ontology/denotative-description/>
@@ -209,7 +209,7 @@ Now, we are interested in finding out how many minerals are included in the clas
 
 Some corrections were needed:
 - We added the PREFIX part which was missing in the code returned by the large language model.
-- Instead of ?mineralCount, we use ?n.
+- We maintained **COUNT**, but instead of ?mineralCount, we use **?n**.
 - After SELECT, we added DISTINCT to ensure that no duplicates will be returned in the resulting table.
 
 Corrected query for the class TechnicalCharacteristic:
