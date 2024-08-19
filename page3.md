@@ -22,7 +22,7 @@ Gemini indicates that crystal habit is associated with the **hasCrystalHabit** p
 
 ![40.ArCo_CrystalHabit](/immagini_markdown/40.ArCo_CrystalHabit.png)
 
-We discovered that a class called **Crystal Habit** does indeed exist and serves as the range for the **hasCrystalHabit** property, which is the focus of our inquiry. We then constructed a query to retrieve the labels of subjects and their values associated with the **hasCrystalHabit** property. Specifically, we aimed to find the crystal habit of an entity labeled ‘topaz’ in Italian, using the LANG operator and the regular expression && to combine the two conditions.
+We discovered that a class called **Crystal Habit** does indeed exist and serves as the range for the hasCrystalHabit property, which is the focus of our inquiry. We then constructed a query to retrieve the labels of subjects and their values associated with the hasCrystalHabit property. Specifically, we aimed to find the crystal habit of an entity labeled ‘topaz’ in Italian. The function '&&' returns a [logical-and](https://www.w3.org/TR/rdf-sparql-query/#func-logical-and), which combines the two conditions expressed respectively by the operators STR and LANG.
 
 ```sparql
 PREFIX a-spe: <https://w3id.org/arco/ontology/natural-specimen-description/>
@@ -45,6 +45,8 @@ From the resulting list, we identified two items: quartz and topaz, which have c
 ![42.CrystalHabit_Granulare](/immagini_markdown/42.CrystalHabit_Granulare.png)
 
 ![43.CrystalHabit_Tabulare](/immagini_markdown/43.CrystalHabit_Tabulare.png)
+
+The following are the last two triples which connects two subjects, namely two specimens of quartz and topaz respectively, with their respective crystal habits through the property hasCrystalHabit, which we have identified previously:
 
 **NEW TRIPLE 5**
 
