@@ -17,7 +17,7 @@ Minerals exhibit a diverse array of colors, which contribute to their uniqueness
 
 The difference between the two answers lies in the format and detail of the explanation. The initial answer is a straightforward "no" with a brief explanation. The revised answer starts with "no" and provides a detailed explanation, including examples of the different colors quartz can exhibit and specifying that the violet variety is known as amethyst. The revised answer is more comprehensive and informative.
 
-Then we decided to explore the DBpedia KG to find how the property of color is described in it:
+Then we decided to explore the DBpedia KG to find how the property of [color](https://dbpedia.org/property/color) is described in it:
 
 ![24.DBpedia_Color](/immagini_markdown/24.DBpedia_Color.png)
 
@@ -31,7 +31,7 @@ Given our uncertainty about the accuracy of the LLM’s response, we decided to 
 
 ![27.ChatGPT_SelfConsistency3](/immagini_markdown/27.ChatGPT_SelfConsistency3.png)
 
-ChatGPT provided the same response as before, despite our knowledge that it was incorrect. After reviewing both the ArCo ontology and the Natural Specimen Description ontology on ArCo website, we were unable to find any property related to color. However, in the Denotative Description ontology, we discovered the property **dd:hasColour**.
+ChatGPT provided the same response as before, despite our knowledge that it was incorrect. After reviewing both the ArCo ontology and the Natural Specimen Description ontology on ArCo website, we were unable to find any property related to color. However, in the Denotative Description ontology, we discovered the property **hasColour**.
 
 ![28.ArCo_hasColour](/immagini_markdown/28.ArCo_hasColour.png) 
 
@@ -98,7 +98,6 @@ WHERE {
 ```
 
 However explicative and detailed was the description provided by the LLM, this query does not give results.
-
 We now create a query to find the subject of the property **hasColour**:
 
 ```sparql
@@ -116,7 +115,7 @@ ORDER BY ASC (?subjectLabel)
 LIMIT 200
 ```
 
-The results of the query are shown in the table. Notice that, unlike the result of the last query, all the property values under the column “colour” are identified by the class Technical Characteristic, which is more appropriate for color than for names of minerals.
+The results of the query are shown in the table. It should be noticed that all the property values under the column “colour” are identified by the class Technical Characteristic, which is more appropriate for color than for names of minerals (see the [results](https://dati.cultura.gov.it/sparql?default-graph-uri=&query=PREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0D%0A%0D%0ASELECT+%3FzirconIRI%0D%0AWHERE%0D%0A%7B%0D%0A++%3FzirconIRI+rdfs%3Alabel+%22zircone%22+.%0D%0A%7D%0D%0ALIMIT+100&format=text%2Fhtml&timeout=0&signal_void=on) of query about zircon's IRI in the section ["Chemical Formula"](https://simiat.github.io/Project_Group19/page1.html))
 
 ![33.ColourLabel_Zircone](/immagini_markdown/33.ColourLabel_Zircone.png)
 
