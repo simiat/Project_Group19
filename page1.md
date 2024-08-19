@@ -42,7 +42,6 @@ From the list of results, we chose the IRIs for three types of minerals:
 ## Chemical Formulas
 
 Each mineral is described by a chemical formula, which represents the chemical elements (atoms) in a compound or molecule and the relative proportions of those elements. Using the resources at hand, we sought to retrieve the chemical formulas of two of the minerals under scrutiny.
-
 We first queried ChatGPT, asking how to find the IRI of the mineral "topaz" in the ArCo Knowledge Graph using the Zero-shot-CoT technique:
 
 ![5.ChatGPT_ZeroShotCoT1](/immagini_markdown/5.ChatGPT_ZeroShotCoT1.png)
@@ -99,13 +98,11 @@ WHERE
 LIMIT 50
 ```
 
-Substantially, we added the REGEX operator, leaving out LCASE and substituting it with "i" within brackets, which means that the label of the corresponding IRI for topaz should be case insensitive. Results are shown in this table:
+Substantially, we added the REGEX operator, leaving out LCASE and substituting it with "i" within inverted commas, which means that the label of the corresponding IRI for topaz should be case insensitive. Results are shown in this table:
 
 ![9.TopazIRI](/immagini_markdown/9.TopazIRI.png)
 
-From the list, we chose the eighth result whose RDF description is available at this [link](https://dati.beniculturali.it/lodview-arco/resource/NaturalHeritage/0900801226.html).
-
-Scrolling down the page, we stop at the object property **hasChemicalFormula**, which is the property we are interested in:
+From the list, we chose the eighth result whose RDF description is available at this [link](https://dati.beniculturali.it/lodview-arco/resource/NaturalHeritage/0900801226.html). Scrolling down the page, we stop at the object property **hasChemicalFormula**, which is the property we are interested in:
 
 ![10.Topazio_esemplare1](/immagini_markdown/10.Topazio_esemplare1.png)
 ![11.Topazio_esemplare2](/immagini_markdown/11.Topazio_esemplare2.png)
@@ -116,7 +113,7 @@ The chemical formula of topaz is: **Al2(SiO4)(F OH)2**, which is identified as _
 - [Movable Property: Simplified Chemical Formula](https://w3id.org/arco/ontology/movable-property/SemplifiedChemicalFormula) 
 
 ![12.ChemicalFormula_Topaz](/immagini_markdown/12.ChemicalFormula_Topaz.png)
-Having found the simplified chemical formula of topaz, we can write a new triple connecting the mineral and its chemical formula through the property _hasChemicalFormula_:
+Having found the simplified chemical formula of topaz, we can write a new triple connecting the mineral and its chemical formula through the property hasChemicalFormula:
 
 **NEW TRIPLE 1**
 
@@ -144,7 +141,7 @@ This query returns exactly the subject of the above written triple
 
 ![13.ChemicalFormula_Topaz2](/immagini_markdown/13.ChemicalFormula_Topaz2.png)
 
-We repeated the same procedure for the mineral zircon:
+We repeated the same procedure for zircon:
 
 ```sparql
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -158,7 +155,7 @@ LIMIT 100
 ```
 ![14.ZirconIRI](/immagini_markdown/14.ZirconIRI.png)
 
-From the table of results we chose the eighth entity, “ZIRCONE (esemplare)”, whose related IRI connected to the label is available at this [link](https://w3id.org/arco/resource/NaturalHeritage/0900801498). The chemical formula of zircon is: **Zr(SiO4)**, categorized as an Empirical Chemical Formula, not as a Simplified Formula.
+From the table of results we chose the eighth entity, “ZIRCONE (esemplare)”, whose related IRI connected to the label is available at this [link](https://w3id.org/arco/resource/NaturalHeritage/0900801498). The chemical formula of zircon is: **Zr(SiO4)**, categorized as _Empirical Chemical Formula_, not as Simplified Chemical Formula.
 
 ![15.ChemicalFormula_Zircon](/immagini_markdown/15.ChemicalFormula_Zircon.png)
 
@@ -171,7 +168,7 @@ From the table of results we chose the eighth entity, “ZIRCONE (esemplare)”,
 ---
 
 
-Remarkable is the fact that the majority of the hits belong to the class Natural Heritage, which is part of the ARCO ontology, the superclass of Mineral Heritage.
+Remarkably, the vast majority of the results of our previous researches belong to the class **Natural Heritage**, which is part of the ArCo ontology, the superclass of 'Mineral Heritage'.
 
 ![16.ArCo_NaturalHeritage](/immagini_markdown/16.ArCo_NaturalHeritage.png)
 
@@ -188,13 +185,12 @@ WHERE
 LIMIT 100
 ```
 
-we find two results that are notably different from what we expected for a mineral:
+we find two results that are notably different from what we expected for a mineral
 
 ![17.ZirconIRI2](/immagini_markdown/17.ZirconIRI2.png)
 
-We can see that zircon is described by the classes “TechnicalCharacteristic” and “CulturalPropertyDefinition” (they belong to the Denotative Description Ontology on ArCo), although we know that, by consulting the ArCo Ontology, these minerals are included in the class Mineral, for example quartz ([https://w3id.org/arco/resource/Mineral/quarzo](https://w3id.org/arco/resource/Mineral/quarzo)), or Natural Heritage, like topaz or zircon. We are interested in how many entities labelled “zircone” we could find under the two classes cited above.
-
-Firstly, we tried the following procedure for zircon: we used the operator ASK to ask ArCo knowledge graph if there are entities with the label “zircone” respectively belonging to the class “TechnicalCharacteristic”. The query returns an affirmative response (“true”):
+We can see that zircon is described by the classes **TechnicalCharacteristic** and **CulturalPropertyDefinition** (they both belong to the Denotative Description Ontology in ArCo), although we know that, by consulting the ArCo Ontology, these minerals are included in the class 'Mineral', for example quartz ([https://w3id.org/arco/resource/Mineral/quarzo](https://w3id.org/arco/resource/Mineral/quarzo)), or 'Natural Heritage', like topaz or zircon. We are interested in how many entities labelled “zircone” we could find under the two classes cited above.
+Firstly, we tried the following procedure for zircon: we used the operator ASK to ask ArCo knowledge graph if there are entities with the label “zircone” respectively belonging to the class TechnicalCharacteristic. The query returns an affirmative response (“true”):
 
 ```sparql
 PREFIX a-dd: <https://w3id.org/arco/ontology/denotative-description/>
@@ -244,7 +240,7 @@ WHERE
 
 The result is **156**.
 
-Therefore, given the significant difference in the number of results from the two queries, we can conclude that the class TechnicalCharacteristic, unlike NaturalHeritage, is not relevant to the description of minerals like zircon. The same research with the other two minerals returns the following results:
+Therefore, given the significant difference in the number of results from the two last queries, we can conclude that the class TechnicalCharacteristic, unlike NaturalHeritage, is not relavant to the description of minerals. The same research with the other two minerals returns the following results:
 
 - Topaz: 13 vs. 232
 - Quartz: 73 vs. 9160
