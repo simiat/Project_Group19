@@ -5,7 +5,7 @@ title: "Crystal Habit"
 
 # Crystal Habit
 
-The last feature of minerals we aim to explore is crystal habit. The crystal habit of a mineral refers to the characteristic external shape or form that a mineral's crystals tend to grow in under natural conditions. This shape results from the mineral's internal atomic structure and the environmental conditions during its formation. To investigate this, we used Gemini to determine whether a property for crystal habit exists within the ArCo Knowledge Graph by analyzing the names of other object properties associated with mineral characteristics.
+The last feature of minerals we aim to explore is crystal habit. The crystal habit of a mineral refers to the characteristic external shape or form that a mineral's crystals tend to grow in under natural conditions. This shape results from the mineral's internal atomic structure and the environmental conditions during its formation. To investigate this, we used Gemini to determine whether a property for crystal habit exists within the ArCo Knowledge Graph by analyzing the names of other object properties associated with mineral characteristics. We deployed the **Few-shot prompting** technique
 
 ![35.Gemini_FewShot1](/immagini_markdown/35.Gemini_FewShot1.png)
 
@@ -18,7 +18,7 @@ The last feature of minerals we aim to explore is crystal habit. The crystal hab
 ![39.Gemini_FewShot5](/immagini_markdown/39.Gemini_FewShot5.png)
 
 
-Gemini indicates that crystal habit is associated with the **hasCrystalHabit** property. However, since we are uncertain about the domain and range of this property, as well as its actual existence, we consulted the Natural Specimen Description Ontology to verify this information.
+Gemini indicates that crystal habit is associated with the **hasCrystalHabit** property. Nevertheless, since we are uncertain about the domain and range of this property, as well as its actual existence, we consulted the Natural Specimen Description Ontology to verify this information.
 
 ![40.ArCo_CrystalHabit](/immagini_markdown/40.ArCo_CrystalHabit.png)
 
@@ -38,7 +38,7 @@ WHERE
 }
 LIMIT 500
 ```
-From the resulting list, we identified two items: quartz and topaz, which have crystal habits labeled as **granulare** and **tabulare**, respectively.
+From the resulting list, we identified two items: quartz and topaz, which have crystal habits labelled as **granulare** and **tabulare** respectively.
 
 ![41.CrystalHabit](/immagini_markdown/41.CrystalHabit.png)
 
@@ -46,7 +46,7 @@ From the resulting list, we identified two items: quartz and topaz, which have c
 
 ![43.CrystalHabit_Tabulare](/immagini_markdown/43.CrystalHabit_Tabulare.png)
 
-The following are the last two triples which connects two subjects, namely two specimens of quartz and topaz respectively, with their respective crystal habits through the property hasCrystalHabit, which we have identified previously:
+The following are the last two triples which connects two subjects, namely two specimens of quartz and topaz respectively, with their related crystal habits through the property hasCrystalHabit, which we have previously identified :
 
 **NEW TRIPLE 5**
 
