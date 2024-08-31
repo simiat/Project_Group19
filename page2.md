@@ -56,7 +56,7 @@ WHERE {
 Since the above query does not give any result, we tried to modify it. By doing so, we made some considerations:
 
 - The namespace **arco-des** does not exist, hence was left out as well as **arco-cd**, because we do not need any properties or classes from the context description ontology.
-- The operator **VALUES** does not appear in the official documentation about [SPARQL query language for RDF](https://www.w3.org/TR/rdf-sparql-query/). Therefore, we decided to eliminate it.
+- The operator **VALUES** does not appear in the official documentation about <a href="https://www.w3.org/TR/rdf-sparql-query/" target="_blank">SPARQL query language for RDF</a>. Therefore, we decided to eliminate it.
 
 ```sparql
 PREFIX dd: <https://w3id.org/arco/ontology/denotative-description/>
