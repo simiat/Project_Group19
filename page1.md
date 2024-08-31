@@ -7,7 +7,7 @@ title: "Chemical Formula"
 
 ## DBpedia and Minerals
 
-This [DBpedia page of minerals](https://dbpedia.org/page/Mineral) introduces us to a wide variety of minerals. We decided to explore three types of minerals: Zircon, Quartz, and Topaz. These minerals were selected because they belong to the category of Silicates.
+This <a href="https://dbpedia.org/page/Mineral" alt="mineral" title="DBpedia">DBpedia page of minerals</a> introduces us to a wide variety of minerals. We decided to explore three types of minerals: Zircon, Quartz, and Topaz. These minerals were selected because they belong to the category of Silicates.
 
 Before analyzing ArCo ontologies to find more information about minerals, we decided to use DBpedia to discover the existing types of minerals and their categories on the platform. We then asked Gemini to create a SPARQL query to find "types of minerals on DBpedia". As a prompt engineering technique, we used **Zero-shot-CoT**. The result is available at this [link](https://gemini.google.com/app/dd370266fbd1ce5c?hl=it).
 
