@@ -17,10 +17,10 @@ layout: default
 Our project focuses on different types of **minerals** included in the ArCo knowledge graph, and in particular the category of **silicates**. Our goal is to explore the world of minerals to enrich the knowledge graph with subject-predicate-object triples. As part of the methodology, we used:
 
 - SPARQL query language
-- [ArCo Knowledge Graph](http://wit.istc.cnr.it/arco/index.php?lang=en) and its Ontologies
-- [DBpedia Knowledge Graph](https://www.dbpedia.org/)
-- [GitHub](https://github.com/) to build the website
-- Large Language Models ([ChatGPT](https://openai.com/chatgpt/) and [Gemini](https://gemini.google.com/app?hl=it))
+- [**ArCo Knowledge Graph**](http://wit.istc.cnr.it/arco/index.php?lang=en) and its Ontologies
+- [**DBpedia Knowledge Graph**](https://www.dbpedia.org/)
+- [**GitHub**](https://github.com/) to build the website
+- Large Language Models ([**ChatGPT**](https://openai.com/chatgpt/) and [**Gemini**](https://gemini.google.com/app?hl=it))
 - Prompting techniques (Zero-shot, Few-shot, Chain-of-Thought, Generated Knowledge Prompting, Self-consistency)
 
 
