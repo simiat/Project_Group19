@@ -52,7 +52,7 @@ The following are the last two triples which connects two subjects, namely two s
 
 - [https://w3id.org/arco/resource/NaturalHeritage/2000189686-1](https://w3id.org/arco/resource/NaturalHeritage/2000189686-1) → Subject: quarzo (esemplare)
 - a-spe:hasCrystalHabit → Predicate/ Property
-- [https://w3id.org/arco/resource/CrystalHabit/2000189686-1](https://w3id.org/arco/resource/CrystalHabit/2000189686-1) → Object/ Property value: granulare
+- [https://w3id.org/arco/resource/CrystalHabit/2000189686-1](https://w3id.org/arco/resource/CrystalHabit/2000189686-1) → Object/ Property value: "granulare"
 
 ![44.CrystalHabit_Granulare2](/immagini_markdown/44.CrystalHabit_Granulare2.png)
 
@@ -60,7 +60,7 @@ The following are the last two triples which connects two subjects, namely two s
 
 - [https://w3id.org/arco/resource/NaturalHeritage/1600302243](https://w3id.org/arco/resource/NaturalHeritage/1600302243) → Subject: topazio (esemplare)
 - a-spe:hasCrystalHabit → Predicate/ Property
-- [https://w3id.org/arco/resource/CrystalHabit/1600302243](https://w3id.org/arco/resource/CrystalHabit/1600302243)  → Object/ Property value: tabulare
+- [https://w3id.org/arco/resource/CrystalHabit/1600302243](https://w3id.org/arco/resource/CrystalHabit/1600302243)  → Object/ Property value: "tabulare"
 
 ![45.CrystalHabit_Tabulare2](/immagini_markdown/45.CrystalHabit_Tabulare2.png)
 
