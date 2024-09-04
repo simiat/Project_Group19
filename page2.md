@@ -125,7 +125,7 @@ We can now write a new triple connecting the first entity of the table labeled �
 
 - [https://w3id.org/arco/resource/NaturalHeritage/1600302046](https://w3id.org/arco/resource/NaturalHeritage/1600302046) → Subject: zircone (esemplare)
 - a-dd:hasColour → Property / Predicate
-- [https://w3id.org/arco/resource/TechnicalCharacteristic/celeste](https://w3id.org/arco/resource/TechnicalCharacteristic/celeste) → Property value / Object: celeste
+- [https://w3id.org/arco/resource/TechnicalCharacteristic/celeste](https://w3id.org/arco/resource/TechnicalCharacteristic/celeste) → Property value / Object: "celeste"
 
 This is the same query as the previous one but instead of “zircone” we used “topazio”:
 
@@ -151,7 +151,7 @@ In order to create the next triple we chose the first result of the table connec
 
 - [https://w3id.org/arco/resource/NaturalHeritage/1600302040](https://w3id.org/arco/resource/NaturalHeritage/1600302040) → Subject: topazio (esemplare)
 - a-dd:hasColour → Predicate / Property
-- [https://w3id.org/arco/resource/TechnicalCharacteristic/giallo-vinato](https://w3id.org/arco/resource/TechnicalCharacteristic/giallo-vinato) → Property value/Object: giallo vinato
+- [https://w3id.org/arco/resource/TechnicalCharacteristic/giallo-vinato](https://w3id.org/arco/resource/TechnicalCharacteristic/giallo-vinato) → Property value/Object: "giallo vinato"
 
 [BACK](./)
 
