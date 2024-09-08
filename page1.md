@@ -117,9 +117,9 @@ Having found the simplified chemical formula of topaz, we can write a new triple
 
 **NEW TRIPLE 1**
 
-- [https://w3id.org/arco/resource/NaturalHeritage/0900801226](https://w3id.org/arco/resource/NaturalHeritage/0900801226) → Subject: “TOPAZIO (esemplare)
-- a-spe:hasChemicalFormula → Property/Predicate
-- [https://w3id.org/arco/resource/ChemicalFormula/al2sio4f-oh2](https://w3id.org/arco/resource/ChemicalFormula/al2sio4f-oh2) → Object/Property Value: “Al2(SiO4)(F OH)2”
+- [https://w3id.org/arco/resource/NaturalHeritage/0900801226](https://w3id.org/arco/resource/NaturalHeritage/0900801226) → Subject: TOPAZIO (esemplare)
+- a-spe:hasChemicalFormula → Predicate / Property
+- [https://w3id.org/arco/resource/ChemicalFormula/al2sio4f-oh2](https://w3id.org/arco/resource/ChemicalFormula/al2sio4f-oh2) → Object / Property Value: “Al2(SiO4)(F OH)2”
 
 This is the query to check the correctness of the above triple:
 
@@ -162,8 +162,8 @@ From the table of results we chose the eighth entity, “ZIRCONE (esemplare)”,
 **NEW TRIPLE 2**
 
 - [https://w3id.org/arco/resource/NaturalHeritage/0900801498](https://w3id.org/arco/resource/NaturalHeritage/0900801498) → Subject: ZIRCONE (esemplare)
-- a-spe:hasChemicalFormula → Predicate
-- [https://w3id.org/arco/resource/ChemicalFormula/zrsio4](https://w3id.org/arco/resource/ChemicalFormula/zrsio4) → Object/Property Value: “Zr(SiO4)”
+- a-spe:hasChemicalFormula → Predicate / Property
+- [https://w3id.org/arco/resource/ChemicalFormula/zrsio4](https://w3id.org/arco/resource/ChemicalFormula/zrsio4) → Object / Property Value: “Zr(SiO4)”
 
 ---
 
