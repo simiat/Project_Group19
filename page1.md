@@ -216,7 +216,7 @@ Corrected query for the class TechnicalCharacteristic:
 
 ```sparql
 PREFIX a-dd: <https://w3id.org/arco/ontology/denotative-description/>
-SELECT COUNT(DISTINCT?mineral) AS ?n 
+SELECT COUNT(DISTINCT ?mineral) AS ?n 
 WHERE 
 {
   ?mineral a a-dd:TechnicalCharacteristic ;
@@ -229,7 +229,7 @@ The result is **3**. We ran this query to get the resources labelled â€œzirconeâ
 
 ```sparql
 PREFIX arco: <https://w3id.org/arco/ontology/arco/>
-SELECT COUNT(DISTINCT?mineral) AS ?n 
+SELECT COUNT(DISTINCT ?mineral) AS ?n 
 WHERE 
 {
   ?mineral a arco:NaturalHeritage ;
