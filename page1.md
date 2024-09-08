@@ -210,13 +210,13 @@ Now, we are interested in finding out how many minerals are included in the clas
 Some corrections were needed:
 - We added the PREFIX part which was missing in the code returned by the large language model.
 - We maintained **COUNT**, but instead of ?mineralCount, we use **?n**.
-- After SELECT, we added DISTINCT to ensure that no duplicates will be returned in the resulting table.
+- We added **DISTINCT** after COUNT to ensure that no duplicates will be returned for the variable ?mineral.
 
 Corrected query for the class TechnicalCharacteristic:
 
 ```sparql
 PREFIX a-dd: <https://w3id.org/arco/ontology/denotative-description/>
-SELECT DISTINCT (COUNT(?mineral) AS ?n) 
+SELECT COUNT(DISTINCT?mineral) AS ?n 
 WHERE 
 {
   ?mineral a a-dd:TechnicalCharacteristic ;
@@ -228,8 +228,8 @@ WHERE
 The result is **3**. We ran this query to get the resources labelled “zircone” present in the class TechnicalCharacteristic. We used the same query to check how many entities called “zircone” are present under the class Natural Heritage:
 
 ```sparql
-PREFIX a-dd: <https://w3id.org/arco/ontology/arco/>
-SELECT DISTINCT (COUNT(?mineral) AS ?n) 
+PREFIX arco: <https://w3id.org/arco/ontology/arco/>
+SELECT COUNT(DISTINCT?mineral) AS ?n 
 WHERE 
 {
   ?mineral a arco:NaturalHeritage ;
@@ -238,12 +238,12 @@ WHERE
 }
 ```
 
-The result is **156**.
+The result is **78**.
 
 Therefore, given the significant difference in the number of results from the two last queries, we can conclude that the class TechnicalCharacteristic, unlike NaturalHeritage, is not relavant to the description of minerals. The same research with the other two minerals returns the following results:
 
-- Topaz: 13 vs. 232
-- Quartz: 73 vs. 9160
+- Topaz: 12 vs. 116
+- Quartz: 60 vs. 4580
 
 These findings emphasize the importance of correctly identifying the relevant classes when working with ontologies to ensure accurate and meaningful results.
 
