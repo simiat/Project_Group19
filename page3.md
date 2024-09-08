@@ -22,7 +22,7 @@ Gemini indicates that crystal habit is associated with the **hasCrystalHabit** p
 
 ![40.ArCo_CrystalHabit](/immagini_markdown/40.ArCo_CrystalHabit.png)
 
-We discovered that a class called **Crystal Habit** does indeed exist and serves as the range for the [hasCrystalHabit](http://wit.istc.cnr.it/arco/lode/extract?url=https://raw.githubusercontent.com/ICCD-MiBACT/ArCo/master/ArCo-release/ontologie/natural-specimen-description/natural-specimen-description.owl#d4e803) property, which is the focus of our inquiry. We then constructed a query to retrieve the labels of subjects and their values associated with the hasCrystalHabit property. Specifically, we aimed to find the crystal habit of an entity labeled ‘topaz’ in Italian. The function '&&' returns a [logical-and](https://www.w3.org/TR/rdf-sparql-query/#func-logical-and), which combines the two conditions expressed respectively by the operators STR and LANG.
+We discovered that a class called **Crystal Habit** does indeed exist and serves as the range for the [hasCrystalHabit](http://wit.istc.cnr.it/arco/lode/extract?url=https://raw.githubusercontent.com/ICCD-MiBACT/ArCo/master/ArCo-release/ontologie/natural-specimen-description/natural-specimen-description.owl#d4e803) property, which is the focus of our inquiry. We then constructed a query to retrieve the labels of subjects and their values associated with the hasCrystalHabit property. Specifically, we aimed to find the crystal habit of an entity labeled ‘topaz’ in Italian. The expression '&&', the [logical-and](https://www.w3.org/TR/rdf-sparql-query/#func-logical-and), combines the two conditions expressed respectively by the operators STR and LANG.
 
 ```sparql
 PREFIX a-spe: <https://w3id.org/arco/ontology/natural-specimen-description/>
@@ -51,16 +51,16 @@ The following are the last two triples which connects two subjects, namely two s
 **NEW TRIPLE 5**
 
 - [https://w3id.org/arco/resource/NaturalHeritage/2000189686-1](https://w3id.org/arco/resource/NaturalHeritage/2000189686-1) → Subject: quarzo (esemplare)
-- a-spe:hasCrystalHabit → Predicate/ Property
-- [https://w3id.org/arco/resource/CrystalHabit/2000189686-1](https://w3id.org/arco/resource/CrystalHabit/2000189686-1) → Object/ Property value: "granulare"
+- a-spe:hasCrystalHabit → Predicate / Property
+- [https://w3id.org/arco/resource/CrystalHabit/2000189686-1](https://w3id.org/arco/resource/CrystalHabit/2000189686-1) → Object / Property value: "granulare"
 
 ![44.CrystalHabit_Granulare2](/immagini_markdown/44.CrystalHabit_Granulare2.png)
 
 **NEW TRIPLE 6**
 
 - [https://w3id.org/arco/resource/NaturalHeritage/1600302243](https://w3id.org/arco/resource/NaturalHeritage/1600302243) → Subject: topazio (esemplare)
-- a-spe:hasCrystalHabit → Predicate/ Property
-- [https://w3id.org/arco/resource/CrystalHabit/1600302243](https://w3id.org/arco/resource/CrystalHabit/1600302243)  → Object/ Property value: "tabulare"
+- a-spe:hasCrystalHabit → Predicate / Property
+- [https://w3id.org/arco/resource/CrystalHabit/1600302243](https://w3id.org/arco/resource/CrystalHabit/1600302243)  → Object / Property value: "tabulare"
 
 ![45.CrystalHabit_Tabulare2](/immagini_markdown/45.CrystalHabit_Tabulare2.png)
 
